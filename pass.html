@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dd</title>
+</head>
+<body>
+<input type="password" name="" id="pass">
+
+
+<input type="checkbox" name="" id="check">
+<span  id="show">show password</span>
+
+
+
+<script type="text/javascript">
+
+var check=document.getElementById("check");
+check.onclick =function  pass() {
+
+	var pass=document.getElementById("pass");
+var box=document.getElementById("show");
+
+	if(check.checked){
+
+pass.type = "text";
+
+box.innerHTML="hide password";
+
+	}
+
+	else{
+
+pass.type = "password";
+
+box.innerHTML="show password";
+	}
+	// body...
+}
+
+
+</script>
+</body>
+</html>

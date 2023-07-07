@@ -1,0 +1,171 @@
+        
+        body {
+            background:#dfd5ff
+        }
+       .input-filed{
+            display:flex;
+            Align-items:center;
+            gap:8px
+            
+        }
+        
+        .login{
+        margin: 0 auto;
+            width:350px;
+            background:white;
+            padding:20px;
+
+            border-radius: 8px;
+    box-shadow: 5px 5px 5px gainsboro;
+        }
+        
+        form{
+            padding:20px;
+            position:relative;
+            
+        }
+        
+        input {
+            margin-top:10px
+        }
+        .input {
+            width:50%;
+            outline:none;
+            border:none;
+            border:1px solid gray;
+            padding:10px;
+            Border-radius:5px;
+        }
+        
+        input {
+            width:100%;
+            outline:none;
+            border:none;
+            border:1px solid gray;
+            padding:10px;
+            
+            Border-radius:5px;
+        }
+        
+      #ficon{
+          color:red;
+          position:absolute;
+         right:185px;
+         
+         display:none;
+         
+                  
+      }
+      
+      #seicon{
+          color:red;
+          position:absolute;
+          right:20px;
+         display:none
+      }
+      
+      
+      
+      #numbericon{
+       
+    color: red;
+    position: absolute;
+    top: 152px;
+    left: 333px;     
+            display:none;
+         
+      }
+      #emailicon{
+      
+       left: 327px;
+    position: absolute;
+    color: red;
+    top: 201px;
+    display: none;
+         
+}
+      }
+
+      
+      .showbox{
+          display:flex;
+          align-iteams:center
+      }
+      
+      #passicon{
+position: absolute;
+ top: 246px;
+    right: 2px;;
+color: red;
+        display:none;
+         
+      }
+      
+      input[type="submit"]{
+background: green;
+color: white;
+border-radius: 5px;
+border: none;
+outline: none;
+cursor:pointer;
+
+      }
+
+#name{
+    position: absolute;
+    background: red;
+    color: white;
+    border-radius: 16px;
+    padding: 5px;
+    left: -120px;
+display: none;
+}
+
+#phonecall{
+position: absolute;
+
+    top: 138px;
+    left: -228px;
+    display: none;
+
+}
+
+
+#gmail{
+
+
+position: absolute;
+
+top: 187px;
+left: -228px;
+display: none;
+}
+
+
+#password{
+position: absolute;
+top: 235px;
+left: -228px;
+
+display: none;
+}
+
+.showbox{
+gap: 12px;
+    align-items: center;
+    display: flex;
+
+}
+
+label{
+
+display: block;}
+
+
+#frmsg{
+
+position: absolute;
+    top: 128px;
+    padding: 2px;
+color: red;
+}
